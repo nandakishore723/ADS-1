@@ -53,7 +53,7 @@ public class Solution {
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
-        Scanner ip = new Scanner (System.in);
+        Scanner ip = new Scanner(System.in);
         int m = Integer.parseInt(ip.nextLine());
         int n = Integer.parseInt(ip.nextLine());
 
