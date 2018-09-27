@@ -28,22 +28,22 @@ public final class Solution {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = ip.nextInt();
         }
-        
+
         Arrays.sort(arr);
         for (int i = 0; i < n - 2; i++) {
             int j = i + 1;
             int x = n - 1;
             while (j < x) {
                 if (arr[i] + arr[j] + arr[x] == 0) {
-                    cnt++;
-                    j++;
-                    x--;
+                cnt++;
+                j++;
+                x--;
 
                 } else if (arr[i] + arr[j] + arr[x] < 0) {
-                    j++;
+                j++;
 
                 } else {
-                    x--;
+                x--;
                 }
             }
 
