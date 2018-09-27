@@ -12,14 +12,14 @@ public final class Solution {
     /**
          * Constructs the object.
          */
-        private Solution() {
+    private Solution() {
 
-        }
-        /**.
-         * { function_description }
-         *
-         * @param      args  The arguments
-         */
+    }
+    /**.
+     * { function_description }
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner ip = new Scanner(System.in);
         int k, n, cnt = 0;
@@ -35,15 +35,15 @@ public final class Solution {
             int x = n - 1;
             while (j < x) {
                 if (arr[i] + arr[j] + arr[x] == 0) {
-                cnt++;
-                j++;
-                x--;
+                    cnt++;
+                    j++;
+                    x--;
 
                 } else if (arr[i] + arr[j] + arr[x] < 0) {
-                j++;
+                    j++;
 
                 } else {
-                x--;
+                    x--;
                 }
             }
 
