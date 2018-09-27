@@ -60,7 +60,7 @@ public class Solution {
         int[] a = new int[m];
         int[] b = new int[n];
 
-        String [] elements;
+        String[] elements;
 
         if (m != 0) {
             elements = ip.nextLine().split(",");
