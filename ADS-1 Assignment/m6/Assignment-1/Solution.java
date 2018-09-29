@@ -33,6 +33,12 @@ class AddLargeNumbers {
  * Class for solution.
  */
 public class Solution {
+
+    /**
+     * { function_description }.
+     *
+     * @param      args  The arguments
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
