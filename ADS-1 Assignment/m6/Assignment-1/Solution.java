@@ -29,7 +29,7 @@ class AddLargeNumbers {
      *
      * @return     { description_of_the_return_value }
      */
-    public static String digitsToNumber(LinkedList list) {
+    public static String digitsToNumber(final LinkedList list) {
         String num = "";
         int i = 0;
         for (i = 0; i < list.size; i++) {
