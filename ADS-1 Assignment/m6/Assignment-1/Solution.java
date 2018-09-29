@@ -22,6 +22,13 @@ class AddLargeNumbers {
         return newlist;
     }
 
+    /**
+     * { function_description }
+     *
+     * @param      list  The list
+     *
+     * @return     { description_of_the_return_value }
+     */
     public static String digitsToNumber(LinkedList list) {
         String num = "";
         int i = 0;
