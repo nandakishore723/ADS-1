@@ -5,6 +5,13 @@ import java.util.Scanner;
  */
 class AddLargeNumbers {
 
+    /**
+     * { function_description }
+     *
+     * @param      num   The number
+     *
+     * @return     { description_of_the_return_value }
+     */
     public static LinkedList numberToDigits(String num) {
         LinkedList newlist = new LinkedList();
         String[] s = new String[] {num};
