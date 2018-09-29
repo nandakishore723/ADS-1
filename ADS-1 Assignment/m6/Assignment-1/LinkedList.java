@@ -2,33 +2,33 @@
  * List of linkeds.
  */
 class LinkedList {
-	Node start = null;
-	int size = 0;
+    Node start = null;
+    int size = 0;
 
-	/**
+    /**
      * Class for node.
      */
     class Node {
-		String data;
-		Node link;
+        String data;
+        Node link;
 
-		/**
+        /**
          * Gets the data.
          *
          * @return     The data.
          */
         public String getData() {
-			return this.data;
-		}
+            return this.data;
+        }
 
-		/**
+        /**
          * Gets the link.
          *
          * @return     The link.
          */
         public Node getLink() {
-			return this.link;
-		}
+            return this.link;
+        }
 
         /**
          * Sets the data.
@@ -43,9 +43,9 @@ class LinkedList {
         public void setLink(Node link) {
             this.link = link;
         }
-	}
+    }
 
-	/**
+    /**
      * Determines if empty.
      *
      * @return     True if empty, False otherwise.
@@ -60,7 +60,7 @@ class LinkedList {
      * @return     { description_of_the_return_value }
      */
     public int size() {
-    	return size;
+        return size;
     }
 
     /**
