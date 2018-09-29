@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * Class for add large numbers.
+ */
 class AddLargeNumbers {
 
 	public static LinkedList numberToDigits(String num) {
