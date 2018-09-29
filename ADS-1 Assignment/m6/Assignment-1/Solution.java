@@ -6,7 +6,7 @@ import java.util.Scanner;
 class AddLargeNumbers {
 
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @param      num   The number
      *
