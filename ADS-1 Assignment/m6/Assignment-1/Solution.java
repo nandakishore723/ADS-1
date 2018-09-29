@@ -7,7 +7,7 @@ class AddLargeNumbers {
 
     public static LinkedList numberToDigits(String num) {
         LinkedList newlist = new LinkedList();
-        String[] s = new String[]{num};
+        String[] s = new String[] {num};
         int i = 0;
         for (i = 0; i < s.length; i++) {
             newlist.push(s[i]);
@@ -25,7 +25,7 @@ class AddLargeNumbers {
     }
 
     /*public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
-        
+
     }*/
 }
 
@@ -59,7 +59,7 @@ public class Solution {
              qDigits);
             System.out.println(AddLargeNumbers.digitsToNumber(result));
             break;*/
-            default:
+        default:
             break;
         }
     }
