@@ -23,7 +23,7 @@ class AddLargeNumbers {
     }
 
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @param      list  The list
      *
