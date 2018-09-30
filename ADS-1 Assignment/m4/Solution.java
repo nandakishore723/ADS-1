@@ -9,7 +9,7 @@ final class Solution {
      */
     private Solution() {
 
-    
+
     }
     /**
      * Checks if Parenthesis is balanced.
