@@ -1,6 +1,8 @@
-import java.util.*;
+import java.util.Scanner;
+
 public class Solution {
-	public static void main(String[] args) {
+
+	public static void main(final String[] args) {
 		Scanner ip = new Scanner(System.in);
 		String testcases = ip.nextLine();
 		while (ip.hasNext()) {
