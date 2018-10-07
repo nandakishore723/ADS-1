@@ -5,6 +5,10 @@ import java.util.Scanner;
  */
 public class Solution {
 
+	private Solution() {
+		
+	} 
+
 	/**
 	 * { function_description }
 	 *
