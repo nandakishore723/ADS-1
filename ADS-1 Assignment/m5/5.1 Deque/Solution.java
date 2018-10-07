@@ -18,7 +18,7 @@ public final class Solution {
         MyQueue mq =  new MyQueue();
         int k = ip.nextInt();
         while (ip.hasNext()) {
-            String[] token =ip.nextLine().split(" ");
+            String[] token = ip.nextLine().split(" ");
             switch (token[0]) {
             case "pushLeft":
                 mq.pushLeft(token[1]);
