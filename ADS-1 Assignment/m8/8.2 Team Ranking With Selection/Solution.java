@@ -30,7 +30,7 @@ final class Solution {
             sb.append(sc.nextLine() + "::");
             // System.out.println(sb);
         }
-        String[] lines=sb.toString().split("::");
+        String[] lines= sb.toString().split("::");
         // System.out.println(sb.toString().split("::"));
         int i = 0;
         Team[] teams = new Team[lines.length];
