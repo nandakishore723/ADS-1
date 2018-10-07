@@ -29,7 +29,7 @@ public final class Solution {
                 System.out.println(mq);
                 break;
             case "popLeft":
-                if (mq.size> 0) {
+                if (mq.size > 0) {
                     mq.popLeft();
                     System.out.println(mq);
                 } else {
