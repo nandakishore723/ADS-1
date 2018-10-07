@@ -1,3 +1,8 @@
+/**
+ * Class for deque.
+ *
+ * @param      <Item>  The item
+ */
 class Deque<Item> {
 	Node first = null;
 	Node last = null;
@@ -6,16 +11,40 @@ class Deque<Item> {
 	class Node {
 		Item data;
 		Node next;
+
+		/**
+		 * Constructs the object.
+		 *
+		 * @param      data  The data
+		 */
 		Node(Item data) {
 			this.data=data;
 		}
 	}
+
+	/**
+	 * Determines if empty.
+	 *
+	 * @return     True if empty, False otherwise.
+	 */
 	public boolean isEmpty() {
 		return size==0;
 	}
+
+	/**
+	 * Gets the size.
+	 *
+	 * @return     The size.
+	 */
 	public int getSize() {
 		return size;
 	}
+
+	/**
+	 * { function_description }.
+	 *
+	 * @param      element  The element
+	 */
 	public void push(Item element) {
 		Node oldleft = last;
 		last = new Node(element);
@@ -29,6 +58,14 @@ class Deque<Item> {
 		oldleft.next =last;
 		size++;
 	}
+
+	/**
+	 * { function_description }.
+	 *
+	 * @param      person  The person
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public Item pop(Item person) {
 		Item d = first.data;
 		if (isEmpty()) {
@@ -61,6 +98,13 @@ class Deque<Item> {
 		}
 		return d;
 	}
+
+	/**
+	 * { function_description }.
+	 *
+	 * @param      people  The people
+	 * @param      gap     The gap
+	 */
 	public void josephus(int people, int gap) {
 		Node head = first;
 		while (!isEmpty()) {
@@ -76,6 +120,10 @@ class Deque<Item> {
 		print = print.trim();
 		System.out.println(print);
 	}
+
+	/**
+	 * { function_description }.
+	 */
 	public void printList() {
 		Node n = first;
 		Node tnode = first.next;
