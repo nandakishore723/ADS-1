@@ -25,7 +25,7 @@ final class Solution {
          */
         final int three = 3;
         Scanner sc=new Scanner(System.in);
-        StringBuffer sb=new StringBuffer();
+        StringBuffer sb= new StringBuffer();
         while (sc.hasNext()) {
             sb.append(sc.nextLine() + "::");
             // System.out.println(sb);
