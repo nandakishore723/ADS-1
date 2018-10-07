@@ -51,6 +51,7 @@ final class MergeSort {
     public int getcutoff() {
         return cutoff;
     }
+
     /**
      * setter for cutoff.
      *
@@ -59,6 +60,7 @@ final class MergeSort {
     public void setcutoff(final int cutof) {
         this.cutoff = cutof;
     }
+
     /**
      * Constructs the object.
      */
@@ -107,6 +109,7 @@ final class MergeSort {
         }
         merge(arr, aux, lo, mid, high);
     }
+
     /**
      * issorted helper method it will call.
      *  overloaded issorted method
@@ -118,6 +121,7 @@ final class MergeSort {
     public boolean isSorted(final Comparable[] a) {
         return isSorted(a, 0, a.length - 1);
     }
+
     /**
      * Determines if sorted or not.
      * complexity is O(N)
@@ -137,6 +141,7 @@ final class MergeSort {
         }
         return true;
     }
+
     /**
      * this method helps to merge the two arrays.
      * complexity is O(N).
@@ -147,7 +152,7 @@ final class MergeSort {
      * @param      mid   The middle
      * @param      high  The high
      */
-    public void merge( Comparable[] arr,  Comparable[] aux,
+    public void merge(final Comparable[] arr,  Comparable[] aux,
                        int lo,  int mid,  int high) {
         int i = lo;
         int j = mid + 1;
@@ -163,6 +168,7 @@ final class MergeSort {
             }
         }
     }
+
     /**
      * this method helps to determine weather the given.
      * array is sorted o not.
@@ -176,6 +182,7 @@ final class MergeSort {
     public boolean less(final Comparable a, final Comparable b) {
         return a.compareTo(b) < 0;
     }
+
     /**
      * this method is called when it reaches the cutoff mark.
      * or less
@@ -195,6 +202,7 @@ final class MergeSort {
             }
         }
     }
+    
     /**
      * this method help to swap two different elements.
      * complexity is O(1).
