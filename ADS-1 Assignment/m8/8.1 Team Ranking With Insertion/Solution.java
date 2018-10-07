@@ -17,9 +17,26 @@ class Selection_sort {
 			exch (arr,i,min);
 		}
 	}
+
+	/**
+	 * { function_description }
+	 *
+	 * @param      v     { parameter_description }
+	 * @param      w     { parameter_description }
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	private static boolean less(Comparable v,Comparable w) {
 		return (v.compareTo(w) < 0);
 	}
+
+	/**
+	 * { function_description }.
+	 *
+	 * @param      a     { parameter_description }
+	 * @param      i     { parameter_description }
+	 * @param      j     { parameter_description }
+	 */
 	private static void exch(Comparable[] a, int i, int j) {
 		Comparable t = a[i];
 		a[i] = a[j];
@@ -27,8 +44,17 @@ class Selection_sort {
 	}
 }
 
+/**
+ * Class for solution.
+ */
 class Solution {
-	public static void main(String[] args) {
+
+	/**
+	 * { function_description }.
+	 *
+	 * @param      args  The arguments
+	 */
+	public static void main(final String[] args) {
 		Scanner sc = new Scanner(System.in);
 		StringBuffer sb = new StringBuffer();
 		while (sc.hasNext()) {
