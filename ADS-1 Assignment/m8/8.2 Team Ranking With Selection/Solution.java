@@ -24,7 +24,7 @@ final class Solution {
          * sort class.
          */
         final int three = 3;
-        Scanner sc= new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         StringBuffer sb = new StringBuffer();
         while (sc.hasNext()) {
             sb.append(sc.nextLine() + "::");
