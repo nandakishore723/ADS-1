@@ -133,7 +133,7 @@ final class MergeSort {
      * @return     True if sorted, False otherwise.
      */
     public boolean isSorted(final Comparable[] a,
-                            final int lo,  int high) {
+                            final int lo, final int high) {
         for (int i = lo + 1; i <= high; i++) {
             if (less(a[i], a[i - 1])) {
                 return false;
@@ -202,7 +202,7 @@ final class MergeSort {
             }
         }
     }
-    
+
     /**
      * this method help to swap two different elements.
      * complexity is O(1).
