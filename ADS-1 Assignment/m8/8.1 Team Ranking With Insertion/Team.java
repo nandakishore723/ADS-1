@@ -1,130 +1,114 @@
 /**
  * Class for team.
  */
-class Team implements Comparable {
-	private String team;
+class Team implements Comparable<Team> {
+	/**The Team class also implements the interface
+	of the Comparable class.**/
+	private String country;
 	private int wins;
-	private int losses;
+	private int loses;
 	private int draws;
-
 	/**
 	 * Constructs the object.
 	 *
-	 * @param      team    The team
-	 * @param      wins    The wins
-	 * @param      losses  The losses
-	 * @param      draws   The draws
+	 * @param      country  The countryT
+	 * @param      wins     The wins
+	 * @param      loses    The loses
+	 * @param      draws    The draws
 	 */
-	Team(final String team, final int wins, final int losses, final int draws) {
-		this.team = team;
+	Team (String country, int wins, int loses, int draws) {
+		this.country = country;
 		this.wins = wins;
-		this.losses = losses;
+		this.loses = loses;
 		this.draws = draws;
 	}
-
 	/**
-	 * Gets the team.
+	 * Gets country.
 	 *
-	 * @return     The team.
+	 * @return     country.
 	 */
-	public String getTeam() {
-		return this.team;
+	public String getcountry() {
+		return country;
 	}
-
 	/**
-	 * Sets the team.
+	 * Sets country.
 	 *
-	 * @param      team  The team
+	 * @param      country  The country.
 	 */
-	public void setTeam(final String team) {
-		this.team = team;
+	public void setcountry(String country) {
+		this.country = country;
 	}
-
 	/**
-	 * Gets the wins.
+	 * Get wins.
 	 *
-	 * @return     The wins.
+	 * @return     wins.
 	 */
-	public int getWins() {
-		return this.wins;
+	public int getwins(){
+		return wins;
 	}
-
 	/**
-	 * Sets the wins.
+	 * Set wins.
 	 *
-	 * @param      wins  The wins
+	 * @param      wins  The wins.
 	 */
-	public void setWins(final int wins) {
-		this.wins = wins;
+	public void setwins(int wins){
+	  	this.wins = wins;
 	}
-
 	/**
-	 * Gets the losses.
+	 * Get loses.
 	 *
-	 * @return     The losses.
+	 * @return     loses.
 	 */
-	public int getLosses() {
-		return this.losses;
+	public int getloses() {
+		return loses;
 	}
-
 	/**
-	 * Sets the losses.
+	 * Set loses.
 	 *
-	 * @param      losses  The losses
+	 * @param      loses  The loses.
 	 */
-	public void setLosses(final int losses) {
-		this.losses = losses;
+	public void setloses(int loses) {
+		this.loses = loses;
 	}
-
 	/**
-	 * Gets the draws.
+	 * Get draws.
 	 *
-	 * @return     The draws.
+	 * @return     draws.
 	 */
-	public int getDraws() {
-		return this.draws;
+	public int getdraws() {
+		return draws;
 	}
-
 	/**
-	 * Sets the draws.
+	 * Set draws.
 	 *
-	 * @param      draws  The draws
+	 * @param      draws  The draws.
 	 */
-	public void setDraws(final int draws) {
+	public void setdraws(int draws) {
 		this.draws = draws;
 	}
-
 	/**
 	 * Returns a string representation of the object.
 	 *
 	 * @return     String representation of the object.
 	 */
 	public String toString() {
-		return this.getTeam();
+		return this.country;		
 	}
-
 	/**
-	 * { function_description }
+	 * comapares two objects in the given condition.
 	 *
-	 * @param      b     { parameter_description }
+	 * @param      that  The that
 	 *
-	 * @return     { description_of_the_return_value }
+	 * @return    
 	 */
-	public int compareTo(Object b) {
-		Team that = (Team) b;
-		if (this.getWins() > that.getWins())
-			return -1;
-		if (this.getWins() < that.getWins())
-			return +1;
-		if (this.getLosses() < that.getLosses())
-			return -1;
-		if (this.getLosses() > that.getLosses())
-			return +1;
-		if (this.getDraws() > that.getDraws())
-			return -1;
-		if (this.getDraws() < that.getDraws())
-			return +1;
+	public int compareTo(Team that) {
+		Team a = this;
+		if (a.wins > that.wins) return 1;
+		if (a.wins < that.wins) return -1;
+		if (a.loses > that.loses) return -1;
+		if (a.loses < that.loses) return 1;
+		if (a.draws > that.draws) return 1;
+		if (a.draws < that.draws) return -1; 
 		return 0;
 	}
 }
-
