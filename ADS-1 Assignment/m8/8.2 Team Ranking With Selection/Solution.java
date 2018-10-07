@@ -37,7 +37,8 @@ final class Solution {
         for (String line : lines) {
             String[] tokens = line.split(",");
             Team team = new Team(tokens[0], Integer.parseInt(tokens[1]),
-                                 Integer.parseInt(tokens[2]), Integer.parseInt(tokens[three]));
+                                 Integer.parseInt(tokens[2]),
+                                 Integer.parseInt(tokens[three]));
             teams[i++] = team;
         }
         Selection.sort(teams);
@@ -48,3 +49,5 @@ final class Solution {
         System.out.print(output.substring(0, output.length() - 1));
     }
 }
+
+
