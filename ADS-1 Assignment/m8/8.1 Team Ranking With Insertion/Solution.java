@@ -5,16 +5,22 @@ import java.util.Arrays;
  * Class for selection sort.
  */
 class Selection_sort {
+
+	/**
+	 * { function_description }.
+	 *
+	 * @param      arr   The arr
+	 */
 	public static void sort(Comparable[] arr) {
 		int arr_length = arr.length;
-		for (int i = 0; i<arr_length; i++) {
-			int min =i;
-			for (int j = i + 1; j <arr_length; j++) {
+		for (int i = 0; i < arr_length; i++) {
+			int min = i;
+			for (int j = i + 1; j < arr_length; j++) {
 				if (less(arr[j], arr[min])) {
 					min = j;
 				}
 			}
-			exch (arr,i,min);
+			exch (arr, i, min);
 		}
 	}
 
@@ -26,7 +32,7 @@ class Selection_sort {
 	 *
 	 * @return     { description_of_the_return_value }
 	 */
-	private static boolean less(Comparable v,Comparable w) {
+	private static boolean less(Comparable v, Comparable w) {
 		return (v.compareTo(w) < 0);
 	}
 
@@ -65,15 +71,15 @@ class Solution {
 		Team[] teams = new Team[lines.length];
 		for (String line : lines) {
 			String[] tokens = line.split(",");
-			Team team = new Team(tokens[0], Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]), 
-			Integer.parseInt(tokens[3]));
+			Team team = new Team(tokens[0], Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]),
+			                     Integer.parseInt(tokens[3]));
 			teams[i++] = team;
-		} 
+		}
 		Selection_sort.sort(teams);
 		String output = "";
 		for (Team team : teams) {
-			output += team + ","; 
+			output += team + ",";
 		}
-		System.out.print(output.substring(0,output.length() - 1));
-	}	
+		System.out.print(output.substring(0, output.length() - 1));
+	}
 }
