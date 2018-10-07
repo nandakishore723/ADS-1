@@ -10,8 +10,7 @@ Starting audit...
 [ERROR] D:\ADS-1\ADS-1 Assignment\m5\5.2 Josephus Problem\Solution.java:15:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\ADS-1\ADS-1 Assignment\m5\5.2 Josephus Problem\Solution.java:15:41: Parameter q should be final. [FinalParameters]
 [ERROR] D:\ADS-1\ADS-1 Assignment\m5\5.2 Josephus Problem\Solution.java:15:59: Parameter people should be final. [FinalParameters]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m5\5.2 Josephus Problem\Solution.java:16:29: '=' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m5\5.2 Josephus Problem\Solution.java:16:33: '<' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m5\5.2 Josephus Problem\Solution.java:16:34: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\ADS-1\ADS-1 Assignment\m5\5.2 Josephus Problem\Solution.java:16:34: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\ADS-1\ADS-1 Assignment\m5\5.2 Josephus Problem\Solution.java:16:35: '<' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 14 errors.
+Checkstyle ends with 13 errors.

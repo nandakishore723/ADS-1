@@ -13,7 +13,7 @@ public class Solution {
 		}
 	}
 	public static void createCircle(Deque<Integer> q, int people) {
-		for (int i =0; i<people; i++) {
+		for (int i = 0; i<people; i++) {
 			q.push(i);
 		}
 	}
