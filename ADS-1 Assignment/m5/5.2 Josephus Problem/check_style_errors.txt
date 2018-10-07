@@ -1,12 +1,7 @@
 Starting audit...
-[ERROR] D:\ADS-1\ADS-1 Assignment\m5\5.2 Josephus Problem\Solution.java:6: Class Solution should be declared as final. [FinalClass]
+[ERROR] D:\ADS-1\ADS-1 Assignment\m5\5.2 Josephus Problem\Solution.java:6:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] D:\ADS-1\ADS-1 Assignment\m5\5.2 Josephus Problem\Solution.java:8: First sentence should end with a period. [JavadocStyle]
 [ERROR] D:\ADS-1\ADS-1 Assignment\m5\5.2 Josephus Problem\Solution.java:8:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m5\5.2 Josephus Problem\Solution.java:8:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m5\5.2 Josephus Problem\Solution.java:9: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m5\5.2 Josephus Problem\Solution.java:10: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m5\5.2 Josephus Problem\Solution.java:12: First sentence should end with a period. [JavadocStyle]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m5\5.2 Josephus Problem\Solution.java:29:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m5\5.2 Josephus Problem\Solution.java:29:41: Parameter q should be final. [FinalParameters]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m5\5.2 Josephus Problem\Solution.java:29:59: Parameter people should be final. [FinalParameters]
+[ERROR] D:\ADS-1\ADS-1 Assignment\m5\5.2 Josephus Problem\Solution.java:32:65: Parameter people should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 9 errors.
+Checkstyle ends with 4 errors.

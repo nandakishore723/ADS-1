@@ -3,11 +3,7 @@ import java.util.Scanner;
 /**
  * Class for solution.
  */
-public class Solution {
-
-	private Solution() {
-		
-	} 
+public final class Solution {
 
 	/**
 	 * { function_description }
@@ -26,7 +22,14 @@ public class Solution {
 			q.josephus(people, gap);
 		}
 	}
-	public static void createCircle(Deque<Integer> q, int people) {
+
+	/**
+	 * Creates a circle.
+	 *
+	 * @param      q       The quarter
+	 * @param      people  The people
+	 */
+	public static void createCircle(final Deque<Integer> q, int people) {
 		for (int i = 0; i < people; i++) {
 			q.push(i);
 		}
