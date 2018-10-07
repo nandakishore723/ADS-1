@@ -1,6 +1,9 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
+/**
+ * Class for selection sort.
+ */
 class Selection_sort {
 	public static void sort(Comparable[] arr) {
 		int arr_length = arr.length;
