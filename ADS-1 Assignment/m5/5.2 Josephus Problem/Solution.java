@@ -1,7 +1,15 @@
 import java.util.Scanner;
 
+/**
+ * Class for solution.
+ */
 public class Solution {
 
+	/**
+	 * { function_description }
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(final String[] args) {
 		Scanner ip = new Scanner(System.in);
 		String testcases = ip.nextLine();
