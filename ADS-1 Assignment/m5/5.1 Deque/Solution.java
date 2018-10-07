@@ -37,7 +37,7 @@ public final class Solution {
                 }
                 break;
             case "popRight":
-                if (mq.size> 0) {
+                if (mq.size > 0) {
                     mq.popRight();
                     System.out.println(mq);
                 } else {
