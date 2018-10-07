@@ -20,8 +20,8 @@ public class MyQueue<E> {
 		node.data = data;
 		node.next = head;
 		if (head == null) {
-			head=node;
-			tail=head;
+			head = node;
+			tail = head;
 			size++;
 			return;
 		}
