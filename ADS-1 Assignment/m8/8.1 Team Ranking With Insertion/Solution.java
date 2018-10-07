@@ -7,7 +7,7 @@ final class Solution {
      * Solution class for Insertion sort program.
      *
      */
-    private Solution(){
+    private Solution() {
         /**
          * { item_description }.
          */

@@ -15,8 +15,7 @@ class Insertion {
 			for (int j = i; j > 0; j--) {
 				if (less(a[j - 1], a[j])) {
 					exch(a, j, j - 1);
-				}
-				else {
+				} else {
 					break;
 				}
 			}
@@ -34,12 +33,12 @@ class Insertion {
 		return (v.compareTo(w) < 0);
 	}
 	/**
-     * { exchanges the elements in ith index with jth index}
-     *The time complexity is 1. Because the statements in this method are executed only once.
-     * @param      a     { comparable array }
-     * @param      i     { index of a }
-     * @param      j     { index of a }
-     */
+	 * { exchanges the elements in ith index with jth index}
+	 *The time complexity is 1. Because the statements in this method are executed only once.
+	 * @param      a     { comparable array }
+	 * @param      i     { index of a }
+	 * @param      j     { index of a }
+	 */
 	private static void exch(Comparable[] a, int i, int j) {
 		Comparable t = a[i];
 		a[i] = a[j];

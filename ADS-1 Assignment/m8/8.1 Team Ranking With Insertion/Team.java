@@ -43,7 +43,7 @@ class Team implements Comparable<Team> {
 	 *
 	 * @return     wins.
 	 */
-	public int getwins(){
+	public int getwins() {
 		return wins;
 	}
 	/**
@@ -51,8 +51,8 @@ class Team implements Comparable<Team> {
 	 *
 	 * @param      wins  The wins.
 	 */
-	public void setwins(int wins){
-	  	this.wins = wins;
+	public void setwins(int wins) {
+		this.wins = wins;
 	}
 	/**
 	 * Get loses.
@@ -92,14 +92,14 @@ class Team implements Comparable<Team> {
 	 * @return     String representation of the object.
 	 */
 	public String toString() {
-		return this.country;		
+		return this.country;
 	}
 	/**
 	 * comapares two objects in the given condition.
 	 *
 	 * @param      that  The that
 	 *
-	 * @return    
+	 * @return
 	 */
 	public int compareTo(Team that) {
 		Team a = this;
@@ -108,7 +108,7 @@ class Team implements Comparable<Team> {
 		if (a.loses > that.loses) return -1;
 		if (a.loses < that.loses) return 1;
 		if (a.draws > that.draws) return 1;
-		if (a.draws < that.draws) return -1; 
+		if (a.draws < that.draws) return -1;
 		return 0;
 	}
 }
