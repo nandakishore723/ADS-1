@@ -18,8 +18,8 @@ public class MyQueue<E> {
 	public void pushLeft(E data) {
 		Node node = new Node();
 		node.data = data;
-		node.next=head;
-		if (head==null) {
+		node.next = head;
+		if (head == null) {
 			head=node;
 			tail=head;
 			size++;
