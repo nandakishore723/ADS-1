@@ -128,7 +128,7 @@ final class MergeSort {
      *
      * @return     True if sorted, False otherwise.
      */
-    public boolean isSorted( Comparable[] a,
+    public boolean isSorted(final Comparable[] a,
                              int lo,  int high) {
         for (int i = lo + 1; i <= high; i++) {
             if (less(a[i], a[i - 1])) {

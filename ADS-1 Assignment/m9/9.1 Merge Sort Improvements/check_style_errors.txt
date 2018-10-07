@@ -1,6 +1,4 @@
 Starting audit...
-[ERROR] D:\ADS-1\ADS-1 Assignment\m9\9.1 Merge Sort Improvements\Solution.java:131:29: '(' is followed by whitespace. [ParenPad]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m9\9.1 Merge Sort Improvements\Solution.java:131:30: Parameter a should be final. [FinalParameters]
 [ERROR] D:\ADS-1\ADS-1 Assignment\m9\9.1 Merge Sort Improvements\Solution.java:132:30: Parameter lo should be final. [FinalParameters]
 [ERROR] D:\ADS-1\ADS-1 Assignment\m9\9.1 Merge Sort Improvements\Solution.java:132:39: Parameter high should be final. [FinalParameters]
 [ERROR] D:\ADS-1\ADS-1 Assignment\m9\9.1 Merge Sort Improvements\Solution.java:150:23: '(' is followed by whitespace. [ParenPad]
@@ -10,4 +8,4 @@ Starting audit...
 [ERROR] D:\ADS-1\ADS-1 Assignment\m9\9.1 Merge Sort Improvements\Solution.java:151:33: Parameter mid should be final. [FinalParameters]
 [ERROR] D:\ADS-1\ADS-1 Assignment\m9\9.1 Merge Sort Improvements\Solution.java:151:43: Parameter high should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 8 errors.
