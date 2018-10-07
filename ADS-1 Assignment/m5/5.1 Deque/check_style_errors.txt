@@ -1,0 +1,4 @@
+Starting audit...
+[ERROR] D:\ADS-1\ADS-1 Assignment\m5\5.1 Deque\Solution.java:40:28: '>' is not preceded with whitespace. [WhitespaceAround]
+Audit done.
+Checkstyle ends with 1 errors.
