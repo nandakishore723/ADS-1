@@ -33,7 +33,7 @@ final class Solution {
             String[] tokens=line.split(",");
             Team team = new Team(tokens[0], Integer.parseInt(tokens[1]),
                 Integer.parseInt(tokens[2]), Integer.parseInt(tokens[three]));
-            teams[i++]= team;
+            teams[i++] = team;
         }
         Insertion.sort(teams);
         String output = "";
