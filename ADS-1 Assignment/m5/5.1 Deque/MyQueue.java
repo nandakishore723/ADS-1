@@ -8,8 +8,8 @@ public class MyQueue<E> {
 			this(data, null);
 		}
 		Node (E data, Node next) {
-			this.data = data;
-			this.next = next;
+			this.data=data;
+			this.next=next;
 		}
 	}
 	private Node head;

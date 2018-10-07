@@ -18,7 +18,7 @@ public final class Solution {
         MyQueue mq =  new MyQueue();
         int k = ip.nextInt();
         while (ip.hasNext()) {
-            String[] token = ip.nextLine().split(" ");
+            String[] token =ip.nextLine().split(" ");
             switch (token[0]) {
             case "pushLeft":
                 mq.pushLeft(token[1]);
@@ -29,7 +29,7 @@ public final class Solution {
                 System.out.println(mq);
                 break;
             case "popLeft":
-                if (mq.size > 0) {
+                if (mq.size>0) {
                     mq.popLeft();
                     System.out.println(mq);
                 } else {
