@@ -153,7 +153,7 @@ final class MergeSort {
      * @param      high  The high
      */
     public void merge(final Comparable[] arr, final Comparable[] aux,
-                       int lo,  int mid,  int high) {
+                      final int lo,  int mid,  int high) {
         int i = lo;
         int j = mid + 1;
         for (int k = lo; k <= high; k++) {
