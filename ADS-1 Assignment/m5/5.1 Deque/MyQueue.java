@@ -9,7 +9,7 @@ public class MyQueue<E> {
 		}
 		Node (E data, Node next) {
 			this.data=data;
-			this.next=next;
+			this.next = next;
 		}
 	}
 	private Node head;
