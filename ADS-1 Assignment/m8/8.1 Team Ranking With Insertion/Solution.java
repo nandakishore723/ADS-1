@@ -7,7 +7,7 @@ import java.util.Arrays;
 class Selection_sort {
 	public static void sort(Comparable[] arr) {
 		int arr_length = arr.length;
-		for (int i=0; i<arr_length; i++) {
+		for (int i = 0; i<arr_length; i++) {
 			int min =i;
 			for (int j = i + 1; j <arr_length; j++) {
 				if (less(arr[j], arr[min])) {
