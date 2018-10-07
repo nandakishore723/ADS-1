@@ -31,14 +31,14 @@ final class Solution {
                     System.out.println(ll.print());
                 }
                 break;
-            /*case "reverse":
+            case "reverse":
                 if (size == 0) {
                     System.out.println("No elements to reverse.");
                     break;
                 }
                 ll.reverse();
                 System.out.println(ll.print());
-                break;*/
+                break;
             default:
                 break;
             }
