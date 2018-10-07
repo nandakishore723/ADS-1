@@ -11,7 +11,7 @@ public final class Solution {
     private Solution() {
 
     }
-    
+
     /**
      * main method.
      *
@@ -48,17 +48,17 @@ final class MergeSort {
      *
      * @return     The cutoff.
      */
-     public int getcutoff() {
-      return cutoff;
-     }
-     /**
-      * setter for cutoff.
-      *
-      * @param      cutof  The cutof.
-      */
-     public void setcutoff(final int cutof) {
-      this.cutoff = cutof;
-     }
+    public int getcutoff() {
+        return cutoff;
+    }
+    /**
+     * setter for cutoff.
+     *
+     * @param      cutof  The cutof.
+     */
+    public void setcutoff(final int cutof) {
+        this.cutoff = cutof;
+    }
     /**
      * Constructs the object.
      */
@@ -87,8 +87,8 @@ final class MergeSort {
      * @param      high  The high
      */
     public void sort(
-final Comparable[] arr, final Comparable[] aux,
- final int lo, final int high) {
+        final Comparable[] arr, final Comparable[] aux,
+        final int lo, final int high) {
         if (high <= lo + getcutoff()) {
             insertionSort(aux, lo, high);
             System.out.println("Insertion sort method invoked...");
@@ -102,7 +102,7 @@ final Comparable[] arr, final Comparable[] aux,
                 aux[i] = arr[i];
             }
             System.out.println(
-"Array is already sorted. So, skipped the call to merge...");
+                "Array is already sorted. So, skipped the call to merge...");
             return;
         }
         merge(arr, aux, lo, mid, high);
