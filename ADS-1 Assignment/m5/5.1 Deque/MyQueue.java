@@ -8,7 +8,7 @@ public class MyQueue<E> {
 			this(data, null);
 		}
 		Node (E data, Node next) {
-			this.data=data;
+			this.data = data;
 			this.next = next;
 		}
 	}
@@ -16,8 +16,8 @@ public class MyQueue<E> {
 	private Node tail;
 	
 	public void pushLeft(E data) {
-		Node node =new Node();
-		node.data=  data;
+		Node node = new Node();
+		node.data = data;
 		node.next=head;
 		if (head==null) {
 			head=node;
