@@ -14,7 +14,7 @@ public class MyQueue<E> {
 	}
 	private Node head;
 	private Node tail;
-	
+
 	public void pushLeft(E data) {
 		Node node = new Node();
 		node.data = data;
@@ -43,13 +43,13 @@ public class MyQueue<E> {
 	}
 
 	public E popRight() {
-		E data =tail.data;
+		E data = tail.data;
 		Node thead = head;
 		while (thead.next != tail) {
 			thead = thead.next;
 			// size--;
 		}
-		thead.next =null;
+		thead.next = null;
 		tail = thead;
 		size--;
 		return data;
@@ -64,7 +64,7 @@ public class MyQueue<E> {
 		if (thead != null) {
 			while (thead.next != null) {
 				str += thead.data + ", ";
-				thead =thead.next;
+				thead = thead.next;
 			}
 			str += thead.data;
 
