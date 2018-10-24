@@ -101,7 +101,7 @@ public class LinkedList {
         head1.next = null;
         return nhead1;
     }
-    
+
     /**
      * Prints the final LinkedList elements.
      *
