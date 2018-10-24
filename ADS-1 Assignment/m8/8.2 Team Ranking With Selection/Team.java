@@ -7,8 +7,17 @@ class Team implements Comparable<Team> {
      * of the Comparable function.
      */
     private String country;
+    /**
+     * team wins.
+     */
     private int wins;
+    /**
+     * team loses.
+     */
     private int loses;
+    /**
+     * team draws.
+     */
     private int draws;
     /**
      * Constructs the object.
