@@ -1,15 +1,10 @@
 Starting audit...
-[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:30:10: '(' is preceded with whitespace. [MethodParamPad]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:30:11: Parameter country should be final. [FinalParameters]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:30:18: 'country' hides a field. [HiddenField]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:30:27: Parameter wins should be final. [FinalParameters]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:30:31: 'wins' hides a field. [HiddenField]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:30:37: Parameter loses should be final. [FinalParameters]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:30:41: 'loses' hides a field. [HiddenField]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:30:48: Parameter draws should be final. [FinalParameters]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:30:52: 'draws' hides a field. [HiddenField]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:49:28: Parameter country should be final. [FinalParameters]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:49:35: 'country' hides a field. [HiddenField]
+[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:30: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:30:23: 'country' hides a field. [HiddenField]
+[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:30:42: 'wins' hides a field. [HiddenField]
+[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:30:58: 'loses' hides a field. [HiddenField]
+[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:30:75: 'draws' hides a field. [HiddenField]
+[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:49:41: 'country' hides a field. [HiddenField]
 [ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:65:25: Parameter wins should be final. [FinalParameters]
 [ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:65:29: 'wins' hides a field. [HiddenField]
 [ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:81:26: Parameter loses should be final. [FinalParameters]
@@ -24,4 +19,4 @@ Starting audit...
 [ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:121: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.2 Team Ranking With Selection\Team.java:122: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 24 errors.
+Checkstyle ends with 19 errors.
