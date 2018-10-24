@@ -1,3 +1,6 @@
+/**
+ * @author : nandakishore723
+ */
 import java.util.Scanner;
 
 final class Solution {
