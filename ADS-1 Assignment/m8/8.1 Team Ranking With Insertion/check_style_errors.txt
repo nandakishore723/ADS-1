@@ -1,10 +1,4 @@
 Starting audit...
-[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.1 Team Ranking With Insertion\Team.java:46:8: Unused @param tag for 'country'. [JavadocMethod]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.1 Team Ranking With Insertion\Team.java:48:41: Expected @param tag for 'country1'. [JavadocMethod]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.1 Team Ranking With Insertion\Team.java:62:8: Unused @param tag for 'wins'. [JavadocMethod]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.1 Team Ranking With Insertion\Team.java:64:35: Expected @param tag for 'wins1'. [JavadocMethod]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.1 Team Ranking With Insertion\Team.java:78:8: Unused @param tag for 'loses'. [JavadocMethod]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.1 Team Ranking With Insertion\Team.java:80:36: Expected @param tag for 'loses1'. [JavadocMethod]
 [ERROR] D:\ADS-1\ADS-1 Assignment\m8\8.1 Team Ranking With Insertion\Team.java:114: Expected @return tag. [JavadocMethod]
 Audit done.
-Checkstyle ends with 7 errors.
+Checkstyle ends with 1 errors.

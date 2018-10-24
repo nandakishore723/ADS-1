@@ -43,7 +43,7 @@ class Team implements Comparable<Team> {
     /**
      * Sets country.
      *
-     * @param      country  The country.
+     * @param      country1  The country.
      */
     public void setcountry(final String country1) {
         this.country = country1;
@@ -59,7 +59,7 @@ class Team implements Comparable<Team> {
     /**
      * Set wins.
      *
-     * @param      wins  The wins.
+     * @param      wins1  The wins.
      */
     public void setwins(final int wins1) {
         this.wins = wins1;
@@ -75,7 +75,7 @@ class Team implements Comparable<Team> {
     /**
      * Set loses.
      *
-     * @param      loses  The loses.
+     * @param      loses1  The loses.
      */
     public void setloses(final int loses1) {
         this.loses = loses1;
