@@ -109,7 +109,7 @@ class Team implements Comparable<Team> {
      *
      * @param      that  The that
      *
-     * @return
+     * @return     { description_of_the_return_value }
      */
     public int compareTo(final Team that) {
         Team a = this;
