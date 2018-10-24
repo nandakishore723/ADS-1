@@ -27,12 +27,12 @@ class Team implements Comparable<Team> {
      * @param      loses    The loses
      * @param      draws    The draws
      */
-    Team(final String country, final int wins, final int loses,
-         final int draws) {
-        this.country = country;
-        this.wins = wins;
-        this.loses = loses;
-        this.draws = draws;
+    Team(final String country1, final int wins1, final int loses1,
+         final int draws1) {
+        this.country = country1;
+        this.wins = wins1;
+        this.loses = loses1;
+        this.draws = draws1;
     }
     /**
      * Gets country.
@@ -47,8 +47,8 @@ class Team implements Comparable<Team> {
      *
      * @param      country  The country.
      */
-    public void setcountry(final String country) {
-        this.country = country;
+    public void setcountry(final String country1) {
+        this.country = country1;
     }
     /**
      * Get wins.
@@ -63,8 +63,8 @@ class Team implements Comparable<Team> {
      *
      * @param      wins  The wins.
      */
-    public void setwins(final int wins) {
-        this.wins = wins;
+    public void setwins(final int wins1) {
+        this.wins = wins1;
     }
     /**
      * Get loses.
@@ -79,8 +79,8 @@ class Team implements Comparable<Team> {
      *
      * @param      loses  The loses.
      */
-    public void setloses(final int loses) {
-        this.loses = loses;
+    public void setloses(final int loses1) {
+        this.loses = loses1;
     }
     /**
      * Get draws.
@@ -95,8 +95,8 @@ class Team implements Comparable<Team> {
      *
      * @param      draws  The draws.
      */
-    public void setdraws(final int draws) {
-        this.draws = draws;
+    public void setdraws(final int draws1) {
+        this.draws = draws1;
     }
     /**
      * Returns a string representation of the object.
