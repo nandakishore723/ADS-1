@@ -44,6 +44,7 @@ public class LinkedList {
 
     /**
      * Insert the value at a position.
+     * Time complexity is O(1) as the function is called only once.
      *
      * @param      position  The position
      * @param      data      The data
@@ -63,6 +64,7 @@ public class LinkedList {
 
     /**
      * Insert helper function.
+     * Time complexity is O(N), because it is a recursive function.
      *
      * @param      head1     The head
      * @param      pos      The position
@@ -80,6 +82,7 @@ public class LinkedList {
 
     /**
      * Reverse of a LinkedList.
+     * Time complexity is O(1).
      */
     public void reverse() {
         head = reverseHelper(head);
@@ -87,6 +90,7 @@ public class LinkedList {
 
     /**
      * Reverse LinkedList Helper.
+     * Time complexity is O(N),because it is a recursive function.
      *
      * @param      head10  The head
      *
