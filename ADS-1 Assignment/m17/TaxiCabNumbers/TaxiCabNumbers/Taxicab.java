@@ -69,7 +69,7 @@ public class Taxicab implements Comparable<Taxicab> {
         MinPQ<Taxicab> minPQ = new MinPQ<Taxicab>();
         final int n = 600;
         int count = 0;
-        long res =0;
+        long res = 0;
         for (int i = 1; i <= n; i++) {
             minPQ.insert(new Taxicab(i, i));
         }
