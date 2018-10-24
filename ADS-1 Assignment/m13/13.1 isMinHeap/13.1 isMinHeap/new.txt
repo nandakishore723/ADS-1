@@ -1,3 +1,0 @@
-Hello
-value of left is ...2
-false

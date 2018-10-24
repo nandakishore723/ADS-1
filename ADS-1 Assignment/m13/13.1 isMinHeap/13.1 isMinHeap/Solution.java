@@ -1,79 +1,98 @@
-/**.
- * imports scanner package
+/**
+ * Program to check if the given input is minimum heap.
+ * @author : nandakishore723.
  */
 import java.util.Scanner;
-/**.
+/**
  * Class for solution.
- *
  */
-public final class Solution  {
+public final  class Solution {
     /**.
-     * Constructs the object for Solution
-     * @author nandakishore723
-     */
+    * Constructs the object.
+    */
     private Solution() {
-
+        /**.
+         * It is a constructor.
+         */
     }
     /**.
-     * main function
-     *
+     * Main method to take the input, convert them to the desired datatype and
+     * pass the input to the MinHeap method.
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
-        Scanner scan = new Scanner(System.in);
-        String key = scan.nextLine();
-        int n = Integer.parseInt(scan.nextLine());
-        switch (key) {
-        case "String":
-            while (n > 0) {
-                String[] token = scan.nextLine().split(",");
-                MinPQ<String> data = new MinPQ<String>(token);
-                System.out.println(data.isMinPQ());
-                n--;
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+        int numOfinputs = Integer.parseInt(sc.nextLine());
+        switch (str) {
+            /**
+             * When the str value is String this case will
+             * executes.
+             */
+            case "String":
+            while (numOfinputs > 0) {
+                String[] tokens = sc.nextLine().split(",");
+                MinHeap min = new MinHeap(tokens);
+                System.out.println(min.IsMinHeap());
+                numOfinputs--;
             }
             break;
-        case "Integer" :
-            while (n > 0) {
-                String[] token = scan.nextLine().split(",");
-                Integer[] integerarray = new Integer[token.length + 1];
-                for (int i = 0; i < token.length; i++) {
-                    integerarray[i + 1] = Integer.parseInt(token[i]);
-                }
-                MinPQ<Integer> data = new MinPQ<Integer>(integerarray);
-                System.out.println(data.isMinPQ());
-                n--;
+            /**
+             * When the str value is Integer this case will
+             * executes.
+             */
+            case "Integer":
+            while (numOfinputs > 0) {
+            String[] tokens = sc.nextLine().split(",");
+            Integer[] inttokens = new Integer[tokens.length];
+            for (int i = 0; i < tokens.length; i++) {
+                inttokens[i] = Integer.parseInt(tokens[i]);
+            }
+            MinHeap min = new MinHeap(inttokens);
+            System.out.println(min.IsMinHeap());
+            numOfinputs--;
             }
             break;
-        case "Float" :
-            while (n > 0) {
-                String input = scan.nextLine();
+            /**
+             * When the str value is Float this case will
+             * executes.
+             */
+            case "Float":
+            while (numOfinputs > 0) {
+                String input = sc.nextLine();
                 if (input.equals("")) {
-                    System.out.println("false");
+                    System.out.println(false);
                     break;
+                } else {
+                    String[] tokens = input.split(",");
+                    Float[] floattokens = new Float[tokens.length];
+                    for (int i = 0; i < tokens.length; i++) {
+                        floattokens[i] = Float.parseFloat(tokens[i]);
+                    }
+                    MinHeap min = new MinHeap(floattokens);
+                    System.out.println(min.IsMinHeap());
+                    numOfinputs--;
                 }
-                String[] token = input.split(",");
-                Float[] floatarray = new Float[token.length + 1];
-                for (int i = 0; i < token.length; i++) {
-                    floatarray[i + 1] = Float.parseFloat(token[i]);
-                }
-                MinPQ<Float> data = new MinPQ<Float>(floatarray);
-                System.out.println(data.isMinPQ());
-                n--;
             }
             break;
-        case "Double" :
-            while (n > 0) {
-                String[] token = scan.nextLine().split(",");
-                Double[] doublearray = new Double[token.length + 1];
-                for (int i = 0; i < token.length; i++) {
-                    doublearray[i + 1] = Double.parseDouble(token[i]);
+            /**
+            *
+            *When the str value is Double this case will
+            * executes.
+            */
+            case "Double":
+            while (numOfinputs > 0) {
+                String[] tokens = sc.nextLine().split(",");
+                Double[] doubletokens = new Double[tokens.length];
+                for (int i = 0; i < tokens.length; i++) {
+                    doubletokens[i] = Double.parseDouble(tokens[i]);
                 }
-                MinPQ<Double> data = new MinPQ<Double>(doublearray);
-                System.out.println(data.isMinPQ());
-                n--;
+                MinHeap min = new MinHeap(doubletokens);
+                System.out.println(min.IsMinHeap());
+                numOfinputs--;
             }
             break;
-        default:
+            default:
             break;
         }
     }
