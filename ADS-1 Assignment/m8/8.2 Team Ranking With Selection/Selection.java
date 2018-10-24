@@ -34,7 +34,7 @@ class Selection {
     private static boolean less(Comparable v, Comparable w) {
         return (v.compareTo(w) < 0);
     }
-    
+
     /**
      * { exchanges the elements in ith index with jth index}
      *The time complexity is 1. Because the statements in this method are executed only once.
