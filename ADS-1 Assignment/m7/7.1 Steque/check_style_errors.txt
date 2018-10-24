@@ -1,0 +1,4 @@
+Starting audit...
+[ERROR] D:\ADS-1\ADS-1 Assignment\m7\7.1 Steque\Steque.java:42: 'if' construct must use '{}'s. [NeedBraces]
+Audit done.
+Checkstyle ends with 1 errors.
