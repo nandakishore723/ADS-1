@@ -22,8 +22,8 @@ public class Taxicab implements Comparable<Taxicab> {
      */
     public Taxicab(final int i1, final int j1) {
         this.sum = (long) (i1 * i1 * i1) + (j1 * j1 * j1);
-        this.i=i1;
-        this.j=j1;
+        this.i =i1;
+        this.j = j1;
     }
     /**.
      * compares two objects
