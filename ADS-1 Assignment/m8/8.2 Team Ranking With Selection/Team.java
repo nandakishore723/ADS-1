@@ -27,7 +27,8 @@ class Team implements Comparable<Team> {
      * @param      loses    The loses
      * @param      draws    The draws
      */
-    Team(final String country, final int wins, final int loses, final int draws) {
+    Team(final String country, final int wins, final int loses,
+         final int draws) {
         this.country = country;
         this.wins = wins;
         this.loses = loses;
@@ -62,7 +63,7 @@ class Team implements Comparable<Team> {
      *
      * @param      wins  The wins.
      */
-    public void setwins(int wins) {
+    public void setwins(final int wins) {
         this.wins = wins;
     }
     /**
@@ -78,7 +79,7 @@ class Team implements Comparable<Team> {
      *
      * @param      loses  The loses.
      */
-    public void setloses(int loses) {
+    public void setloses(final int loses) {
         this.loses = loses;
     }
     /**
@@ -94,7 +95,7 @@ class Team implements Comparable<Team> {
      *
      * @param      draws  The draws.
      */
-    public void setdraws(int draws) {
+    public void setdraws(final int draws) {
         this.draws = draws;
     }
     /**
@@ -114,12 +115,27 @@ class Team implements Comparable<Team> {
      */
     public int compareTo(Team that) {
         Team a = this;
-        if (a.wins > that.wins) return -1;
-        if (a.wins < that.wins) return 1;
-        if (a.loses > that.loses) return 1;
-        if (a.loses < that.loses) return -1;
-        if (a.draws > that.draws) return -1;
-        if (a.draws < that.draws) return 1;
+        if (a.wins > that.wins) {
+            return -1;
+        }
+        if (a.wins < that.wins) {
+            return 1;
+        }
+
+        if (a.loses > that.loses) {
+
+            return 1;
+        }
+        if (a.loses < that.loses) {
+
+            return -1;
+        }
+        if (a.draws > that.draws) {
+            return -1;
+        }
+        if (a.draws < that.draws) {
+            return 1;
+        }
         return 0;
     }
 }
