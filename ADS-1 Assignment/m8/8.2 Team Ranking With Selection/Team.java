@@ -22,10 +22,10 @@ class Team implements Comparable<Team> {
     /**
      * Constructs the object.
      *
-     * @param      country  The country
-     * @param      wins     The wins
-     * @param      loses    The loses
-     * @param      draws    The draws
+     * @param      country1  The country
+     * @param      wins1     The wins
+     * @param      loses1    The loses
+     * @param      draws1    The draws
      */
     Team(final String country1, final int wins1, final int loses1,
          final int draws1) {
@@ -45,7 +45,7 @@ class Team implements Comparable<Team> {
     /**
      * Sets country.
      *
-     * @param      country  The country.
+     * @param      country1  The country.
      */
     public void setcountry(final String country1) {
         this.country = country1;
@@ -61,7 +61,7 @@ class Team implements Comparable<Team> {
     /**
      * Set wins.
      *
-     * @param      wins  The wins.
+     * @param      wins1  The wins.
      */
     public void setwins(final int wins1) {
         this.wins = wins1;
@@ -77,7 +77,7 @@ class Team implements Comparable<Team> {
     /**
      * Set loses.
      *
-     * @param      loses  The loses.
+     * @param      loses1  The loses.
      */
     public void setloses(final int loses1) {
         this.loses = loses1;
@@ -93,7 +93,7 @@ class Team implements Comparable<Team> {
     /**
      * Set draws.
      *
-     * @param      draws  The draws.
+     * @param      draws1  The draws.
      */
     public void setdraws(final int draws1) {
         this.draws = draws1;
@@ -113,7 +113,7 @@ class Team implements Comparable<Team> {
      *
      * @return     { description_of_the_return_value }
      */
-    public int compareTo(Team that) {
+    public int compareTo(final Team that) {
         Team a = this;
         if (a.wins > that.wins) {
             return -1;
