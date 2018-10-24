@@ -22,8 +22,8 @@ public class Taxicab implements Comparable<Taxicab> {
      */
     public Taxicab(final int i1, final int j1) {
         this.sum = (long) (i1 * i1 * i1) + (j1 * j1 * j1);
-        this.i = i1;
-        this.j = j1;
+        this.i=i1;
+        this.j=j1;
     }
     /**.
      * compares two objects
@@ -69,7 +69,7 @@ public class Taxicab implements Comparable<Taxicab> {
         MinPQ<Taxicab> minPQ = new MinPQ<Taxicab>();
         final int n = 600;
         int count = 0;
-        long res = 0;
+        long res =0;
         for (int i = 1; i <= n; i++) {
             minPQ.insert(new Taxicab(i, i));
         }
