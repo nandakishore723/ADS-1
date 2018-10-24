@@ -19,18 +19,18 @@ public final class Solution {
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
-        Scanner scan =new Scanner(System.in);
-        int testcases= scan.nextInt();
+        Scanner scan = new Scanner(System.in);
+        int testcases = scan.nextInt();
         scan.nextLine();
         for (int i = 0; i < testcases; i++) {
             Steque ss = new Steque();
             while (scan.hasNext()) {
                 String line = scan.nextLine();
-                if (line.length()==0) {
+                if (line.length() == 0) {
                     System.out.println();
                     break;
                 }
-                String[] tokens =line.split(" ");
+                String[] tokens = line.split(" ");
                 switch (tokens[0]) {
                 case "pop":
                     ss.pop();
