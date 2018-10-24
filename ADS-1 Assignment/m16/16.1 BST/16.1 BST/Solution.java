@@ -20,7 +20,7 @@ public final class Solution {
      */
     public static void main(final String[] args) {
         Scanner scan=new Scanner(System.in);
-        BST bst=new BST();
+        BST bst =new BST();
         while (scan.hasNext()) {
             String[] tokens = scan.nextLine().split(",");
             switch (tokens[0]) {
