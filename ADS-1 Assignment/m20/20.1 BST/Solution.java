@@ -24,7 +24,8 @@ public final class Solution {
             switch (tokens[0]) {
             case "put":
                 Book books = new Book(tokens[1],
-                                      tokens[2], Float.parseFloat(tokens[three]));
+                                      tokens[2],
+                                      Float.parseFloat(tokens[three]));
                 bst.put(books, Integer.parseInt(tokens[four]));
                 break;
             case "get":
