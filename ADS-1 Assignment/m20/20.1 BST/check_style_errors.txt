@@ -1,4 +1,4 @@
 Starting audit...
-[ERROR] D:\ADS-1\ADS-1 Assignment\m20\20.1 BST\Solution.java:18:23: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\ADS-1\ADS-1 Assignment\m20\20.1 BST\Solution.java:27: Line is longer than 80 characters (found 82). [LineLength]
 Audit done.
 Checkstyle ends with 1 errors.
