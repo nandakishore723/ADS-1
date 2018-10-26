@@ -47,10 +47,10 @@ public final class Solution {
                 break;
             }
         }
-        if (!true) {
-            System.out.println("No");
-        } else {
+        if (flag) {
             System.out.println("Yes");
+        } else {
+            System.out.println("No");
         }
     }
 }
