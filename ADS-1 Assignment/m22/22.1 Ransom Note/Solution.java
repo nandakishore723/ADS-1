@@ -19,7 +19,8 @@ public final class Solution {
         Scanner sc = new Scanner(System.in);
         int nofwrdsinmagz = sc.nextInt();
         int nofwrdsinrnote = sc.nextInt();
-        SeparateChainingHashST<String, Integer> st = new SeparateChainingHashST<String, Integer>();
+        SeparateChainingHashST<String, Integer> st = new
+        SeparateChainingHashST<String, Integer>();
         sc.nextLine();
         String[]magzwrds = sc.nextLine().split(" ");
         String[]rnotewrds = sc.nextLine().split(" ");
