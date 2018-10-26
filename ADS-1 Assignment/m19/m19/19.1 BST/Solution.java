@@ -15,14 +15,14 @@ public final class Solution {
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
-        Scanner sc=new Scanner(System.in);
-        BinarySearchTree bstobj=new BinarySearchTree();
+        Scanner sc = new Scanner(System.in);
+        BinarySearchTree bstobj = new BinarySearchTree();
         while (sc.hasNext()) {
             String[] tokens = sc.nextLine().split(",");
             switch (tokens[0]) {
             case "put":
                 BookDetails deobj = new BookDetails(tokens[1],
-                    tokens[2], Float.parseFloat(tokens[2 + 1]));
+                                                    tokens[2], Float.parseFloat(tokens[2 + 1]));
                 bstobj.put(deobj, Integer.parseInt(tokens[2 + 2]));
                 break;
             case "get":
@@ -45,12 +45,12 @@ public final class Solution {
                 break;
             case "floor":
                 deobj = new BookDetails(tokens[1],
-                    tokens[2], Float.parseFloat(tokens[2 + 1]));
+                                        tokens[2], Float.parseFloat(tokens[2 + 1]));
                 System.out.println(bstobj.floor(deobj));
                 break;
             case "ceiling":
                 deobj = new BookDetails(tokens[1],
-                    tokens[2], Float.parseFloat(tokens[2 + 1]));
+                                        tokens[2], Float.parseFloat(tokens[2 + 1]));
                 System.out.println(bstobj.ceiling(deobj));
                 break;
             default:
