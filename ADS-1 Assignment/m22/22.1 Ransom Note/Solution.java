@@ -49,8 +49,7 @@ public final class Solution {
         }
         if (flag == false) {
             System.out.println("No");
-        }
-        else {
+        } else {
             System.out.println("Yes");
         }
     }
