@@ -3,6 +3,5 @@ Starting audit...
 [ERROR] D:\ADS-1\ADS-1 Assignment\m19\m19\19.1 BST\Solution.java:18:20: '=' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\ADS-1\ADS-1 Assignment\m19\m19\19.1 BST\Solution.java:19:32: '=' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\ADS-1\ADS-1 Assignment\m19\m19\19.1 BST\Solution.java:19:33: '=' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m19\m19\19.1 BST\Solution.java:21:30: '=' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 4 errors.
