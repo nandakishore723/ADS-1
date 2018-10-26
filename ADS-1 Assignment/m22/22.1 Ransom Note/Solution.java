@@ -15,7 +15,7 @@ public final class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         int nofwrdsinmagz = sc.nextInt();
         int nofwrdsinrnote = sc.nextInt();
