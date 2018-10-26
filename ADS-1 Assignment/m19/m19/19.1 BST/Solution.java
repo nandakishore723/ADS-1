@@ -23,7 +23,8 @@ public final class Solution {
             case "put":
                 BookDetails deobj = new BookDetails(tokens[1],
                                                     tokens[2],
-                                                    Float.parseFloat(tokens[2 + 1]));
+                                                    Float.parseFloat(
+                                                        tokens[2 + 1]));
                 bstobj.put(deobj, Integer.parseInt(tokens[2 + 2]));
                 break;
             case "get":
@@ -42,8 +43,8 @@ public final class Solution {
                 System.out.println(bstobj.min());
                 break;
             case "select":
-                System.out.println(bstobj.select
-                    (Integer.parseInt(tokens[1])));
+                System.out.println(bstobj.select(
+                    Integer.parseInt(tokens[1])));
                 break;
             case "floor":
                 deobj = new BookDetails(tokens[1],
@@ -53,7 +54,8 @@ public final class Solution {
                 break;
             case "ceiling":
                 deobj = new BookDetails(tokens[1],
-                                        tokens[2], Float.parseFloat(tokens[2 + 1]));
+                                        tokens[2],
+                                        Float.parseFloat(tokens[2 + 1]));
                 System.out.println(bstobj.ceiling(deobj));
                 break;
             default:
