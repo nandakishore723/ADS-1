@@ -18,7 +18,7 @@ public final class Solution {
         Scanner sc=new Scanner(System.in);
         BinarySearchTree bstobj=new BinarySearchTree();
         while (sc.hasNext()) {
-            String[] tokens=sc.nextLine().split(",");
+            String[] tokens =sc.nextLine().split(",");
             switch (tokens[0]) {
             case "put":
                 BookDetails deobj = new BookDetails(tokens[1],
