@@ -35,7 +35,7 @@ class Solution {
 				if (Integer.parseInt(queryTokens[2]) == 1) {
 					if (schObj.get(Integer.parseInt(queryTokens[1])) == null) {
 						System.out.println("Student doesn't exists...");
-					} /*else {
+					} else {
 						System.out.println(schObj.get(Integer.parseInt(queryTokens[1])).getstudentname());
 
 						if (schObj.get(Integer.parseInt(queryTokens[1])) == null) {
@@ -43,7 +43,7 @@ class Solution {
 						} else {
 							System.out.println(schObj.get(Integer.parseInt(queryTokens[1])).gettotalmarks());
 						}
-					}*/
+					}
 				}
 			}
 		}
