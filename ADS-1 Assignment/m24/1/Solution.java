@@ -37,10 +37,9 @@ public class Solution {
 
 				System.out.println(stud.getstudentname());
 
-			} else if (qdata[2].equals("2")) {
+			} else { 
 				System.out.println(stud.gettotalmarks());
 			}
 		}
-
 	}
 }
