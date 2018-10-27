@@ -18,14 +18,14 @@ class Student {
     /**
      * Constructs the object.
      *
-     * @param      rollnumber   The rollnumber
-     * @param      studentname  The studentname
-     * @param      totalmarks   The totalmarks
+     * @param      rollnumber1   The rollnumber
+     * @param      studentname1  The studentname
+     * @param      totalmarks1   The totalmarks
      */
-    Student(int rollnumber, String studentname, double totalmarks) {
-        this.rollnumber = rollnumber;
-        this.studentname = studentname;
-        this.totalmarks = totalmarks;
+    Student(final int rollnumber1, final String studentname1, final double totalmarks1) {
+        this.rollnumber = rollnumber1;
+        this.studentname = studentname1;
+        this.totalmarks = totalmarks1;
     }
     /**
      * . Constructs the object.
@@ -33,7 +33,7 @@ class Student {
      * @param      studentname  The studentname
      * @param      totalmarks   The totalmarks
      */
-    Student(String studentname, double totalmarks) {
+    Student(final String studentname, final double totalmarks) {
         this.studentname = studentname;
         this.totalmarks = totalmarks;
     }
@@ -50,7 +50,7 @@ class Student {
      *
      * @param      rollno  The rollnumber.
      */
-    public void setrollno( int rollnumber) {
+    public void setrollno(final int rollnumber) {
         this.rollnumber = rollnumber;
     }
 

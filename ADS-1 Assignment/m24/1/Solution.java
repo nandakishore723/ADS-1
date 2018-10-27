@@ -10,7 +10,6 @@ public class Solution {
 	private Solution() {
 
 	}
-
 	/**
 	 * main function.
 	 *

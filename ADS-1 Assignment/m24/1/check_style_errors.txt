@@ -1,20 +1,11 @@
 Starting audit...
-[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:25:13: Parameter rollnumber should be final. [FinalParameters]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:25:17: 'rollnumber' hides a field. [HiddenField]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:25:29: Parameter studentname should be final. [FinalParameters]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:25:36: 'studentname' hides a field. [HiddenField]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:25:49: Parameter totalmarks should be final. [FinalParameters]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:25:56: 'totalmarks' hides a field. [HiddenField]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:36:13: Parameter studentname should be final. [FinalParameters]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:36:20: 'studentname' hides a field. [HiddenField]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:36:33: Parameter totalmarks should be final. [FinalParameters]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:36:40: 'totalmarks' hides a field. [HiddenField]
+[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:25: Line is longer than 80 characters (found 89). [LineLength]
+[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:36:26: 'studentname' hides a field. [HiddenField]
+[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:36:52: 'totalmarks' hides a field. [HiddenField]
 [ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:51:8: Unused @param tag for 'rollno'. [JavadocMethod]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:53:27: '(' is followed by whitespace. [ParenPad]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:53:28: Parameter rollnumber should be final. [FinalParameters]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:53:32: 'rollnumber' hides a field. [HiddenField]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:53:32: Expected @param tag for 'rollnumber'. [JavadocMethod]
+[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:53:37: 'rollnumber' hides a field. [HiddenField]
+[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:53:37: Expected @param tag for 'rollnumber'. [JavadocMethod]
 [ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:70:45: 'studentname' hides a field. [HiddenField]
 [ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:86:44: 'totalmarks' hides a field. [HiddenField]
 Audit done.
-Checkstyle ends with 17 errors.
+Checkstyle ends with 8 errors.
