@@ -27,7 +27,7 @@ public class Solution {
 		}
 		int m = Integer.parseInt(scan.nextLine());
 		int j;
-		for (j = 0; j < n; j++) {
+		for (j = 0; j < m; j++) {
 			String line = scan.nextLine();
 			String[]qdata = line.split(" ");
 			Student stud = hashmap.get(Integer.parseInt(qdata[1]));
