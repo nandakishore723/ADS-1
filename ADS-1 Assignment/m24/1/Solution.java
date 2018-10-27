@@ -29,7 +29,7 @@ public class Solution {
 		int j;
 		for (j = 0; j < n; j++) {
 			String line = scan.nextLine();
-			String[]qdata = line.split(",");
+			String[]qdata = line.split(" ");
 			Student stud = hashmap.get(Integer.parseInt(qdata[1]));
 			if (stud == null) {
 				System.out.println("Student doesn't exists...");
