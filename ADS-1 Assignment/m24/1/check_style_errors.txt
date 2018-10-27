@@ -1,8 +1,2 @@
 Starting audit...
-[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:37:26: 'studentname' hides a field. [HiddenField]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:37:52: 'totalmarks' hides a field. [HiddenField]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:54:41: 'rollnumber' hides a field. [HiddenField]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:71:45: 'studentname' hides a field. [HiddenField]
-[ERROR] D:\ADS-1\ADS-1 Assignment\m24\1\Student.java:87:44: 'totalmarks' hides a field. [HiddenField]
 Audit done.
-Checkstyle ends with 5 errors.
