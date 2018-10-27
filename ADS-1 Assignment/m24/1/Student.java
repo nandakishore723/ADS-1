@@ -22,7 +22,8 @@ class Student {
      * @param      studentname1  The studentname
      * @param      totalmarks1   The totalmarks
      */
-    Student(final int rollnumber1, final String studentname1, final double totalmarks1) {
+    Student(final int rollnumber1, final String studentname1,
+            final double totalmarks1) {
         this.rollnumber = rollnumber1;
         this.studentname = studentname1;
         this.totalmarks = totalmarks1;
@@ -48,9 +49,9 @@ class Student {
     /**.
      * Sets the rollnumber.
      *
-     * @param      rollno  The rollnumber.
+     * @param      rollnumber  The rollnumber.
      */
-    public void setrollno(final int rollnumber) {
+    public void setrollnumber(final int rollnumber) {
         this.rollnumber = rollnumber;
     }
 
