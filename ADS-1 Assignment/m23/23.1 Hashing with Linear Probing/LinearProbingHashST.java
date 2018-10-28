@@ -47,7 +47,7 @@ public class LinearProbingHashST<Key, Value> {
 
     /**
      * Returns true if this symbol table contains the specified key.
-     *
+     * time complexity - O(n).
      * @param  key the key
      * @return {@code true} if this symbol table contains {@code key};
      *         {@code false} otherwise
@@ -64,6 +64,7 @@ public class LinearProbingHashST<Key, Value> {
     }
 
     // resizes the hash table to the given capacity by re-hashing all of the keys
+    // time complexity - O(n).
     private void resize(int capacity) {
         LinearProbingHashST<Key, Value> temp = new LinearProbingHashST<Key, Value>(capacity);
         for (int i = 0; i < m; i++) {
@@ -81,6 +82,7 @@ public class LinearProbingHashST<Key, Value> {
      * value with the new value if the symbol table already contains the specified key.
      * Deletes the specified key (and its associated value) from this symbol table
      * if the specified value is {@code null}.
+     * time complexity - O(n).
      *
      * @param  key the key
      * @param  val the value
@@ -112,6 +114,7 @@ public class LinearProbingHashST<Key, Value> {
     /**
      * Returns the value associated with the specified key.
      * @param key the key
+     * time complexity - O(n).
      * @return the value associated with {@code key};
      *         {@code null} if no such value
      * @throws IllegalArgumentException if {@code key} is {@code null}
@@ -127,7 +130,7 @@ public class LinearProbingHashST<Key, Value> {
     /**
      * Removes the specified key and its associated value from this symbol table
      * (if the key is in this symbol table).
-     *
+     * time complexity - O(n).
      * @param  key the key
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
@@ -170,7 +173,7 @@ public class LinearProbingHashST<Key, Value> {
      * Returns all keys in this symbol table as an {@code Iterable}.
      * To iterate over all of the keys in the symbol table named {@code st},
      * use the foreach notation: {@code for (Key key : st.keys())}.
-     *
+     * time complexity - O(n).
      * @return all keys in this symbol table
      */
     public Iterable<Key> keys() {
@@ -180,7 +183,7 @@ public class LinearProbingHashST<Key, Value> {
         return queue;
     }
 
-    // integrity check - don't check after each put() because
+    // integrity check - don't check after each put() bec   se
     // integrity not maintained during a delete()
     private boolean check() {
 
