@@ -13,7 +13,7 @@ public final class Solution {
     private Solution() {
 
     }
-    /**
+    /**.
      * main function
      *
      * @param      args  The arguments

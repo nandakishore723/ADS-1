@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] D:\ADS-1\ADS-1 Assignment\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:16: First sentence should end with a period. [JavadocStyle]
 Audit done.
-Checkstyle ends with 1 errors.
