@@ -53,6 +53,8 @@ class BinarySearchTree {
     }
     /**
      * size method.
+     * size of tree
+     * Time complexity is O(1) as each statement is executed only once.
      *
      * @return size.
      */
@@ -61,6 +63,9 @@ class BinarySearchTree {
     }
     /**
      * size overloaded method.
+     * returns size of tree
+     * Time Complexity is O(1).
+     * it returns the size of that node.
      *
      * @param      x Node
      *
@@ -75,7 +80,8 @@ class BinarySearchTree {
     }
     /**
      * get method.
-     *time complexity is O(logN)
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      key   The key
      *
      * @return  integer.
@@ -96,7 +102,8 @@ class BinarySearchTree {
     }
     /**
      * put method to insert the key, value.
-     *time complexity is O(1)
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      key   The key
      * @param      val   The value
      */
@@ -105,7 +112,8 @@ class BinarySearchTree {
     }
     /**
      * overloaded constructor.
-     * time complexity is O(logN)
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      x   root node.
      * @param      key   The key
      * @param      val   The value
@@ -128,7 +136,8 @@ class BinarySearchTree {
     }
     /**
      * min element.
-     * time complexity is O(1)
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @return minimum.
      */
     public BookDetails min() {
@@ -136,7 +145,8 @@ class BinarySearchTree {
     }
     /**
      * overloaded constructor.
-     * time complexity is O(logN)
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      x Node
      *
      * @return minimum.
@@ -150,7 +160,8 @@ class BinarySearchTree {
     }
     /**
      * maximum element.
-     * time complexity is O(1)
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @return maximum.
      */
     public BookDetails max() {
@@ -158,7 +169,8 @@ class BinarySearchTree {
     }
     /**
      * overloaded constructor.
-     * time complexity is O(logN)
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      x Node
      *
      * @return maximum.
@@ -172,7 +184,8 @@ class BinarySearchTree {
     }
     /**
      * floor method.
-     * time complexity is O(1)
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      key   The key
      *
      * @return  key
@@ -187,8 +200,9 @@ class BinarySearchTree {
     }
     /**
      *
-     *overloaded constructor.
-     *time complexity is O(logN)
+     * overloaded constructor.
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      x Node
      * @param      key   The key
      *
@@ -214,7 +228,8 @@ class BinarySearchTree {
     }
     /**
      * ceiling method.
-     * time complexity is O(1)
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      key   The key
      *
      * @return key.
@@ -229,7 +244,8 @@ class BinarySearchTree {
     }
     /**
      * overloaded constructor.
-     * time complexity is O(logN)
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      x Node
      * @param      key   The key
      *
@@ -255,7 +271,8 @@ class BinarySearchTree {
     }
     /**
      * {Select Method}.
-     * Time complexity of this method is O(1).
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      k     {Integer}
      *
      * @return     {BookDetails Object}
@@ -266,7 +283,8 @@ class BinarySearchTree {
     }
     /**
      * {Select method}
-     * Time complexity of this method is O(log(N)).
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      x     {Node}
      * @param      k     {Integer}
      *
@@ -287,7 +305,8 @@ class BinarySearchTree {
     }
     /**
      * {Rank}.
-     * Time complexity of this method is O(1).
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      key   The key
      *
      * @return     {Integer}
@@ -297,7 +316,8 @@ class BinarySearchTree {
     }
     /**
      * {Method of rank}.
-     * Time complexity of this method is O(log(N)).
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      key   The key
      * @param      x     {Node}
      *
