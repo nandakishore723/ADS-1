@@ -42,7 +42,8 @@ public class BST <Key extends Comparable <Key>, Value> {
 		}
 	}
 	/**
-	 * puts the value and key into BST
+	 * puts the value and key into BST.
+	 * Time complexity is O(logN).
 	 *
 	 * @param      key    The key
 	 * @param      value  The value
@@ -56,7 +57,7 @@ public class BST <Key extends Comparable <Key>, Value> {
 	 * @param      x      { Node }
 	 * @param      key    The key
 	 * @param      value  The value
-	 * Time complexity is N as it is a recursive function
+	 * Time complexity is O(logN) as it is a recursive function
 	 * @return     { returns the value if the given conditions are not satisfied else return the node }
 	 */
 	public Node put(Node x, Book key, String value ) {
@@ -76,7 +77,8 @@ public class BST <Key extends Comparable <Key>, Value> {
 	 * get the value of the given 
 	 *
 	 * @param      key   The key
-	 * Time complexity is N as the while iterates till it reaches null
+	 * Time complexity is O(logN) as the while iterates till it reaches null.
+	 * In worst case it is O(N).
 	 * @return     { returns the value of String type }
 	 */
 	public String get(Book key) {
