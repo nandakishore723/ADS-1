@@ -4,6 +4,7 @@ import java.util.NoSuchElementException;
 /**
  * Class for minimum pq.
  *
+ *
  * @param      <Key>  The key
  */
 public class MinPQ<Key> implements Iterable<Key> {
