@@ -21,7 +21,8 @@ public class Queue<Item> implements Iterable<Item> {
     }
 
     /**
-     * Returns true if this queue is empty.
+     * By the analysis the time complexity of the below meyhod is O(1).
+     * As the each statment executes once.
      *
      * @return {@code true} if this queue is empty; {@code false} otherwise
      */
@@ -31,6 +32,8 @@ public class Queue<Item> implements Iterable<Item> {
 
     /**
      * Returns the number of items in this queue.
+     * By the analysis the time complexity of the below meyhod is O(1).
+     * As the statment executes once for every calls of this method.
      *
      * @return the number of items in this queue
      */
@@ -51,6 +54,8 @@ public class Queue<Item> implements Iterable<Item> {
 
     /**
      * Adds the item to this queue.
+     * By the analysis the time complexity of the below meyhod is O(1).
+     * As the statment executes once for every calls of this method.
      *
      * @param  item the item to add
      */
@@ -66,6 +71,8 @@ public class Queue<Item> implements Iterable<Item> {
 
     /**
      * Removes and returns the item on this queue that was least recently added.
+     * By the analysis the time complexity of the below meyhod is O(1).
+     * As the statment executes once for every calls of this method.
      *
      * @return the item on this queue that was least recently added
      * @throws NoSuchElementException if this queue is empty
@@ -81,6 +88,8 @@ public class Queue<Item> implements Iterable<Item> {
 
     /**
      * Returns a string representation of this queue.
+     * By the analysis the time complexity of the below meyhod is O(N).
+     * The for loop iterates upto the lengeth of the Item or for n values.
      *
      * @return the sequence of items in FIFO order, separated by spaces
      */
@@ -95,6 +104,8 @@ public class Queue<Item> implements Iterable<Item> {
 
     /**
      * Returns an iterator that iterates over the items in this queue in FIFO order.
+     * By the analysis the time complexity of the below meyhod is O(N).
+     * The iterataor class will iterates upto the all n values which is in the queue.
      *
      * @return an iterator that iterates over the items in this queue in FIFO order
      */

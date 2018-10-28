@@ -11,7 +11,8 @@ public final class Solution {
 
     }
     /**
-     * { function_description }.
+     * By the analysis the time complexity of the follwing method isO(N).
+     * As the for loop iterates upto the N value.
      *
      * @param      args  The arguments
      */
