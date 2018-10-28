@@ -75,7 +75,8 @@ class BST {
     }
     /**
      * get method.
-     * Time complexity is logN
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      key   The key
      *
      * @return  integer.
@@ -96,7 +97,8 @@ class BST {
     }
     /**
      * Put.
-     * Time complexity is logN
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      key   The key
      * @param      val   The value
      */
@@ -105,7 +107,8 @@ class BST {
     }
     /**
      * Put.
-     * Time complexity is logN
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      x   root node.
      * @param      key   The key
      * @param      val   The value
@@ -128,14 +131,16 @@ class BST {
     }
     /**
      * deleteing minimum element.
-     * Time complexity is 1.
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      */
     public void deleteMin() {
         root = deleteMin(root);
     }
     /**
      * deleting minimum element with node value.
-     * Time complexity is logN.
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      *
      * @param      x     Node variable.
      *
@@ -151,7 +156,8 @@ class BST {
     }
     /**
      * Removes the largest key and associated value from the symbol table.
-     * Time complexity is 1.
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      */
     public void deleteMax() {
         root = deleteMax(root);
@@ -185,7 +191,8 @@ class BST {
 
     /**
      * delete the element that given.
-     * Time complexity is N.
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      *
      * @param      x     Node variable.
      * @param      key   The key
@@ -219,7 +226,8 @@ class BST {
     }
     /**
      * minimum.
-     * Time complexity is 1.
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @return minimum.
      */
     public Book min() {
@@ -227,7 +235,8 @@ class BST {
     }
     /**
      * minimum.
-     * Time complexity is logN
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      x Node
      *
      * @return minimum.
@@ -241,7 +250,8 @@ class BST {
     }
     /**
      * maximum.
-     * Time complexity is 1.
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @return maximum.
      */
     public Book max() {
@@ -249,7 +259,8 @@ class BST {
     }
     /**
      * maximum.
-     * Time complexity is logN
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      x Node
      *
      * @return maximum.
@@ -263,7 +274,8 @@ class BST {
     }
     /**
      * floor.
-     * Time complexity is 1.
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      key   The key
      *
      * @return  key
@@ -279,7 +291,8 @@ class BST {
     /**
      *
      * floor.
-     * Time complexity is logN
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      x Node
      * @param      key   The key
      *
@@ -305,7 +318,8 @@ class BST {
     }
     /**
      * ceiling.
-     * Time complexity is 1.
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      key   The key
      *
      * @return key.
@@ -320,7 +334,8 @@ class BST {
     }
     /**
      * ceiling..
-     * Time complexity is logN
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      x Node
      * @param      key   The key
      *
@@ -346,7 +361,8 @@ class BST {
     }
     /**
      * Select.
-     * Time complexity is 1.
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      k     Integer
      *
      * @return     Book Object
@@ -357,7 +373,8 @@ class BST {
     }
     /**
      * Select.
-     * Time complexity is logN.
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      x     {Node}
      * @param      k     {Integer}
      *
@@ -378,7 +395,8 @@ class BST {
     }
     /**
      * rank.
-     * Time complexity is 1.
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      key   The key
      *
      * @return     {Integer}
@@ -388,7 +406,8 @@ class BST {
     }
     /**
      * rank.
-     * Time complexity is logN
+     * Time complexity is O(h) where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      * @param      key   The key
      * @param      x     Node variable.
      *
