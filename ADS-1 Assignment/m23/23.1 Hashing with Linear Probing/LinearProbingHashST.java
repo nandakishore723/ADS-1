@@ -28,7 +28,7 @@ public class LinearProbingHashST<Key, Value> {
 
     /**
      * Returns the number of key-value pairs in this symbol table.
-     *
+     * Time complexity is constant because each statement is executed only once.
      * @return the number of key-value pairs in this symbol table
      */
     public int size() {
@@ -59,6 +59,7 @@ public class LinearProbingHashST<Key, Value> {
     }
 
     // hash function for keys - returns value between 0 and M-1
+    // Time complexity is constant because each statement is executed only once.
     private int hash(Key key) {
         return (11 * key.hashCode()) % m;
     }

@@ -34,6 +34,7 @@ public class Queue<Item> implements Iterable<Item> {
 
     /**
      * Initializes an empty queue.
+     * 
      */
     public Queue() {
         first = null;
@@ -43,6 +44,8 @@ public class Queue<Item> implements Iterable<Item> {
 
     /**
      * Returns true if this queue is empty.
+     * The time complexty of the follwing method is O(1).
+     * As each statment executes only once.
      *
      * @return {@code true} if this queue is empty; {@code false} otherwise
      */
@@ -52,6 +55,8 @@ public class Queue<Item> implements Iterable<Item> {
 
     /**
      * Returns the number of items in this queue.
+     * The time complexty of the follwing method is O(1).
+     * As each statment executes only once.
      *
      * @return the number of items in this queue
      */
@@ -72,6 +77,8 @@ public class Queue<Item> implements Iterable<Item> {
 
     /**
      * Adds the item to this queue.
+     * By the analysis the time complexity of the below meyhod is O(1).
+     * As the statment executes once for every calls of this method.
      *
      * @param  item the item to add
      */
@@ -87,6 +94,8 @@ public class Queue<Item> implements Iterable<Item> {
 
     /**
      * Removes and returns the item on this queue that was least recently added.
+     * By the analysis the time complexity of the below meyhod is O(1).
+     * As the statment executes once for every calls of this method.
      *
      * @return the item on this queue that was least recently added
      * @throws NoSuchElementException if this queue is empty
@@ -102,6 +111,8 @@ public class Queue<Item> implements Iterable<Item> {
 
     /**
      * Returns a string representation of this queue.
+     * The time complexty of the follwing method is O(N).
+     * As the loop iterates till the length of the item.
      *
      * @return the sequence of items in FIFO order, separated by spaces
      */
@@ -116,6 +127,8 @@ public class Queue<Item> implements Iterable<Item> {
 
     /**
      * Returns an iterator that iterates over the items in this queue in FIFO order.
+     * The time complexty of the follwing method is O(N).
+     * As the iterator class executes upto all the elements present in the queue.
      *
      * @return an iterator that iterates over the items in this queue in FIFO order
      */
