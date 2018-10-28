@@ -1,0 +1,17 @@
+[master d85bf61] "ads1_m13_a1: 5/5 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 12 files changed, 212 insertions(+), 7015 deletions(-)
+ delete mode 100644 ADS-1 Assignment/m13/13.1 isMinHeap/13.1 isMinHeap/MaxPQ.class
+ delete mode 100644 ADS-1 Assignment/m13/13.1 isMinHeap/13.1 isMinHeap/MaxPQ.java
+ create mode 100644 ADS-1 Assignment/m13/13.1 isMinHeap/13.1 isMinHeap/MinHeap.class
+ create mode 100644 ADS-1 Assignment/m13/13.1 isMinHeap/13.1 isMinHeap/MinHeap.java
+ delete mode 100644 ADS-1 Assignment/m13/13.1 isMinHeap/13.1 isMinHeap/MinPQ.class
+ delete mode 100644 ADS-1 Assignment/m13/13.1 isMinHeap/13.1 isMinHeap/MinPQ.java
+ rewrite ADS-1 Assignment/m13/13.1 isMinHeap/13.1 isMinHeap/Solution.class (95%)
+ rewrite ADS-1 Assignment/m13/13.1 isMinHeap/13.1 isMinHeap/Solution.java (81%)
+ delete mode 100644 ADS-1 Assignment/m13/13.1 isMinHeap/13.1 isMinHeap/new
+ delete mode 100644 ADS-1 Assignment/m13/13.1 isMinHeap/13.1 isMinHeap/new.txt
+ rewrite ADS-1 Assignment/m13/13.1 isMinHeap/13.1 isMinHeap/result/score.json (86%)
+ rewrite ADS-1 Assignment/m13/13.1 isMinHeap/13.1 isMinHeap/testcases_output.txt (99%)
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/nandakishore723/ADS-1.git
+   0dd3b8a..d85bf61  master -> master

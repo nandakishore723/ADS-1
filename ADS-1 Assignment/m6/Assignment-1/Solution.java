@@ -12,7 +12,6 @@ class AddLargeNumbers {
      *
      * @return     { description_of_the_return_value }
      */
-
     public static LinkedList numberToDigits(final String num) {
         LinkedList newlist = new LinkedList();
         String[] s = new String[] {num};
@@ -81,5 +80,4 @@ public class Solution {
         }
     }
 }
-
 

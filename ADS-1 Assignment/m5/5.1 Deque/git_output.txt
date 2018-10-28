@@ -1,0 +1,6 @@
+[master 8cf2395] "ads1_m5_a1: 5/5 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+ rewrite ADS-1 Assignment/m5/5.1 Deque/result/score.json (73%)
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/nandakishore723/ADS-1.git
+   9827a2e..8cf2395  master -> master
